@@ -1,0 +1,13 @@
+# Core dependencies
+Flask==2.3.3
+Werkzeug==2.3.7
+pycryptodome==3.19.0
+requests==2.31.0
+
+# For auto-py-to-exe (needed for exe conversion)
+auto-py-to-exe==2.36.0
+pyinstaller==6.2.0
+
+# Additional dependencies
+# Note: Removing python-csv which has compatibility issues
+typing-extensions
